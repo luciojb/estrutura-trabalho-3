@@ -32,7 +32,7 @@ public class MergeSort {
 		int j=fim;
 		for(int k=inicio; k<=fim; k++){
 			this.troca++;
-			compara++;
+			this.compara++;
 			if(aux[i]<=aux[j]){
 				vetor[k]=aux[i];
 				i++;
